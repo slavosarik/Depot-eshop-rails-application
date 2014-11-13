@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :testings
+
   resources :line_items
 
   resources :carts
@@ -12,5 +14,9 @@ Rails.application.routes.draw do
 end
 
 #creating test comments
+
+
+
+
 
 
